@@ -8,6 +8,8 @@ import java.awt.event.WindowEvent;
 
 public class UI {
     private JFrame frame;
+
+
     public UI()
     {
         prepareGUI();
@@ -16,6 +18,13 @@ public class UI {
     {
         frame = new MainFrame();
         frame.setVisible(true);
+
+        frame = new DataFrame();
+
     }
 
+    public void setUpData()
+    {
+
+    }
 }

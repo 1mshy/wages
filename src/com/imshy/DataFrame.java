@@ -1,5 +1,8 @@
 package com.imshy;
 
-public class DataFrame {
+import javax.swing.*;
+
+public class DataFrame extends JFrame {
+
 
 }
